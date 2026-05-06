@@ -1,0 +1,14 @@
+/* Article typography */
+.post-content,
+.markdown-body,
+.article-content {
+  line-height: 1.75;
+}
+
+/* Paragraph spacing */
+.post-content p,
+.markdown-body p,
+.article-content p {
+  margin-top: 0;
+  margin-bottom: 1.05em;
+}
