@@ -1,14 +1,66 @@
-/* Article typography */
+/* Keep theme article typography override */
+.post-page-container,
+.post-page-container p,
+.post-content-container,
+.post-content-container p,
 .post-content,
+.post-content p,
 .markdown-body,
-.article-content {
-  line-height: 1.75;
+.markdown-body p,
+.article-content,
+.article-content p,
+main article,
+main article p {
+  line-height: 1.75 !important;
 }
 
 /* Paragraph spacing */
+.post-page-container p,
+.post-content-container p,
 .post-content p,
 .markdown-body p,
-.article-content p {
-  margin-top: 0;
-  margin-bottom: 1.05em;
+.article-content p,
+main article p {
+  margin-top: 0 !important;
+  margin-bottom: 1.1em !important;
+}
+
+/* Lists */
+.post-page-container li,
+.post-content-container li,
+.post-content li,
+.markdown-body li,
+.article-content li,
+main article li {
+  line-height: 1.75 !important;
+  margin-bottom: 0.45em !important;
+}
+
+/* Headings spacing */
+.post-page-container h1,
+.post-page-container h2,
+.post-page-container h3,
+.post-content-container h1,
+.post-content-container h2,
+.post-content-container h3,
+.post-content h1,
+.post-content h2,
+.post-content h3,
+main article h1,
+main article h2,
+main article h3 {
+  margin-top: 1.8em !important;
+  margin-bottom: 0.8em !important;
+  line-height: 1.35 !important;
+}
+
+/* Blockquotes */
+.post-page-container blockquote,
+.post-content-container blockquote,
+.post-content blockquote,
+.markdown-body blockquote,
+.article-content blockquote,
+main article blockquote {
+  line-height: 1.7 !important;
+  margin: 1.2em 0 !important;
 }
